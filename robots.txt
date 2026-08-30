@@ -1,0 +1,7 @@
+# robots.txt — Prem Kumar Electronics
+# ⚠️ REPLACE: domain ko apne real domain / GitHub Pages URL se badlein
+
+User-agent: *
+Allow: /
+
+Sitemap: https://premkumarelectronics.in/sitemap.xml
