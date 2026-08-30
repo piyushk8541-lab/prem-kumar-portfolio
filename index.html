@@ -1,0 +1,722 @@
+<!DOCTYPE html>
+<!-- ============================================================================
+  ⚡ PREM KUMAR ELECTRONICS — Single Page Website
+  ----------------------------------------------------------------------------
+  ⚙️ QUICK SETUP — Replace these placeholders before going live (find & replace):
+    1.  +91-98765-43210   → Real phone number (also in tel:+919876543210 links)
+    2.  919876543210      → Real WhatsApp number inside wa.me links
+    3.  premkumar.electronics@gmail.com → Real email
+    4.  [Your Shop Address, Your City, Your State - 000000] → Real address
+    5.  https://premkumarelectronics.in/ → Your real domain / GitHub Pages URL
+    6.  YOUR_FORM_ID      → Your Formspree form ID (get free at formspree.io)
+    7.  Area names in "Service Area" section → Your real local areas
+    8.  assets/images/prem-kumar-portrait.jpg → Replace with Prem Kumar Ji's real photo
+============================================================================= -->
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- ============ SEO META TAGS ============ -->
+  <title>Prem Kumar Electronics | Best Electronic Repair Service | Fridge, TV, AC, Washing Machine Repair</title>
+  <meta name="description" content="20 saal ka experience. Fridge, TV, AC, Washing Machine, Cooler repair. Same day service. Call now! Prem Kumar Electronics — Trusted by 10,000+ customers.">
+  <meta name="keywords" content="electronic repair near me, fridge repair, TV repair, AC repair, washing machine repair, Prem Kumar electronics, best electrician, AC gas refill, geyser repair, cooler repair, CCTV installation, home wiring">
+  <meta name="author" content="Prem Kumar Electronics">
+  <meta name="robots" content="index, follow">
+  <meta name="theme-color" content="#0F172A">
+
+  <!-- ⚠️ REPLACE: apna real domain / GitHub Pages URL daalein -->
+  <link rel="canonical" href="https://premkumarelectronics.in/">
+
+  <!-- ============ OPEN GRAPH (WhatsApp / Facebook sharing) ============ -->
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Prem Kumar Electronics">
+  <meta property="og:title" content="Prem Kumar Electronics | 20 Saal Ka Bharosa — Har Electronic Ka Ilaaj">
+  <meta property="og:description" content="Fridge, TV, AC, Washing Machine repair at your doorstep. 20+ years experience, same day service, 90 days warranty. Call now!">
+  <meta property="og:url" content="https://premkumarelectronics.in/">
+  <meta property="og:image" content="https://premkumarelectronics.in/assets/images/og-cover.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:locale" content="hi_IN">
+
+  <!-- ============ TWITTER CARD ============ -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Prem Kumar Electronics | Best Electronic Repair Service">
+  <meta name="twitter:description" content="20 saal ka experience. Fridge, TV, AC, Washing Machine repair. Same day service. Call now!">
+  <meta name="twitter:image" content="https://premkumarelectronics.in/assets/images/og-cover.jpg">
+
+  <!-- ============ FAVICON (inline SVG — zero extra request) ============ -->
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%231E40AF'/%3E%3Cpath d='M36 6L14 38h12l-4 20 24-34H32l4-18z' fill='%23F59E0B'/%3E%3C/svg%3E">
+
+  <!-- ============ FONTS (Poppins for headings, Noto Sans Devanagari for Hindi) ============ -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600;700;800&family=Noto+Sans+Devanagari:wght@400;500;700&display=swap" rel="stylesheet">
+
+  <!-- ============ SCHEMA.ORG LOCAL BUSINESS (JSON-LD) ============ -->
+  <!-- TIP: Geo coordinates (latitude/longitude) add kar dein jab shop ki exact location mile —
+       Google Maps se right-click karke coordinates mil jaate hain. -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Electrician",
+    "name": "Prem Kumar Electronics",
+    "image": "https://premkumarelectronics.in/assets/images/og-cover.jpg",
+    "@id": "https://premkumarelectronics.in/",
+    "url": "https://premkumarelectronics.in/",
+    "telephone": "+91-98765-43210",
+    "email": "premkumar.electronics@gmail.com",
+    "description": "Electronics and electrical repair centre with 20+ years of hands-on experience. Fridge, TV, AC, washing machine, cooler, geyser repair and complete electrical work with same-day doorstep service.",
+    "priceRange": "₹₹",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "[Your Shop Address]",
+      "addressLocality": "[Your City]",
+      "addressRegion": "[Your State]",
+      "postalCode": "000000",
+      "addressCountry": "IN"
+    },
+    "openingHoursSpecification": {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"],
+      "opens": "08:00",
+      "closes": "21:00"
+    },
+    "areaServed": ["Gandhi Nagar","Station Road","Main Market","Civil Lines","Shastri Chowk","Nehru Marg"],
+    "founder": {
+      "@type": "Person",
+      "name": "Prem Kumar",
+      "jobTitle": "Founder & Master Technician"
+    },
+    "knowsAbout": ["Refrigerator Repair","TV Repair","AC Repair & Gas Refilling","Washing Machine Repair","Microwave Oven Repair","Geyser Repair","Electrical Wiring","Inverter & Battery Setup","CCTV Installation","Motor Pump Repair"]
+  }
+  </script>
+
+  <!-- ============ STYLES & SCRIPTS ============ -->
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+
+<body>
+  <a class="skip-link" href="#main">Skip to main content</a>
+
+  <!-- ==================== STICKY NAVBAR ==================== -->
+  <header class="navbar" id="navbar">
+    <nav class="nav-container" aria-label="Main navigation">
+      <a href="#home" class="nav-logo" aria-label="Prem Kumar Electronics — Home">
+        <span class="logo-bolt" aria-hidden="true">⚡</span>
+        <span class="logo-text">Prem Kumar <strong>Electronics</strong></span>
+      </a>
+
+      <ul class="nav-links" id="navLinks">
+        <li><a href="#services">Services</a></li>
+        <li><a href="#why-us">Why Us</a></li>
+        <li><a href="#brands">Brands</a></li>
+        <li><a href="#process">Process</a></li>
+        <li><a href="#testimonials">Reviews</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+
+      <!-- ⚠️ REPLACE: real phone number -->
+      <a href="tel:+919876543210" class="nav-call-btn">
+        <span aria-hidden="true">📞</span> Call Now
+      </a>
+
+      <button class="nav-toggle" id="navToggle" aria-label="Open menu" aria-expanded="false" aria-controls="navLinks">
+        <span></span><span></span><span></span>
+      </button>
+    </nav>
+  </header>
+
+  <main id="main">
+
+  <!-- ==================== SECTION 1: HERO ==================== -->
+  <section class="hero" id="home">
+    <div class="hero-circuit" aria-hidden="true"></div>
+    <div class="hero-content reveal">
+      <p class="hero-eyebrow">🔧 Electronic Repairing Centre</p>
+      <h1 class="hero-title">Prem Kumar Electronics</h1>
+      <p class="hero-devanagari" lang="hi">प्रेम कुमार इलेक्ट्रॉनिक्स</p>
+      <p class="hero-subheading">20 Saal Ka Bharosa | Har Electronic Ka Ilaaj</p>
+      <p class="hero-tagline">Your Trusted Electronics &amp; Electrical Expert Since Childhood</p>
+
+      <div class="hero-ctas">
+        <!-- ⚠️ REPLACE: tel number & wa.me number -->
+        <a href="tel:+919876543210" class="btn btn-call btn-pulse">
+          <span aria-hidden="true">📞</span> Call Now
+        </a>
+        <a href="https://wa.me/919876543210?text=Namaste%20Prem%20Kumar%20Ji!%20Mujhe%20appliance%20repair%20karwana%20hai." target="_blank" rel="noopener" class="btn btn-whatsapp btn-pulse">
+          <span aria-hidden="true">💬</span> WhatsApp Pe Message Karein
+        </a>
+      </div>
+
+      <div class="hero-badge" role="note">
+        <span class="badge-star" aria-hidden="true">⭐</span>
+        20+ Years Experience &nbsp;|&nbsp; 10,000+ Happy Customers
+      </div>
+    </div>
+
+    <a href="#trustbar" class="hero-scroll" aria-label="Scroll down to see more">
+      <span></span>
+    </a>
+  </section>
+
+  <!-- ==================== SECTION 2: TRUST BAR (MARQUEE) ==================== -->
+  <section class="trustbar" id="trustbar" aria-label="Our highlights">
+    <div class="marquee" data-marquee>
+      <div class="marquee-track">
+        <span>🔧 20+ Years Experience</span>
+        <span>👨‍🔧 Expert Team</span>
+        <span>🏠 10,000+ Home Visits</span>
+        <span>⚡ Same Day Service</span>
+        <span>✅ All Brands Covered</span>
+        <span>💰 Affordable Pricing</span>
+        <span>🛡️ 90 Days Warranty</span>
+        <span>📍 Free Home Visit (15 KM)</span>
+        <!-- duplicate set for seamless loop (JS duplicates too, this is the no-JS fallback) -->
+        <span aria-hidden="true">🔧 20+ Years Experience</span>
+        <span aria-hidden="true">👨‍🔧 Expert Team</span>
+        <span aria-hidden="true">🏠 10,000+ Home Visits</span>
+        <span aria-hidden="true">⚡ Same Day Service</span>
+        <span aria-hidden="true">✅ All Brands Covered</span>
+        <span aria-hidden="true">💰 Affordable Pricing</span>
+        <span aria-hidden="true">🛡️ 90 Days Warranty</span>
+        <span aria-hidden="true">📍 Free Home Visit (15 KM)</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== SECTION 3: SERVICES GRID ==================== -->
+  <section class="section services" id="services">
+    <div class="container">
+      <header class="section-head reveal">
+        <p class="section-eyebrow">🛠️ Humari Services</p>
+        <h2 class="section-title">Humari Services — <span class="text-gold">Har Problem Ka Ek Hi Solution</span></h2>
+        <p class="section-sub">Chhota appliance ho ya poori building ki wiring — sab kuch ek hi jagah, guarantee ke saath.</p>
+      </header>
+
+      <div class="services-grid">
+
+        <article class="svc-card reveal">
+          <div class="svc-icon" aria-hidden="true">❄️</div>
+          <h3 class="svc-name">Fridge / Refrigerator Repair <span lang="hi">फ्रिज रिपेयर</span></h3>
+          <p class="svc-desc">LG, Samsung, Whirlpool, Godrej, Haier, Voltas — cooling problem se lekar compressor &amp; gas tak, sab theek.</p>
+          <a href="#contact" class="svc-book">Book Now →</a>
+        </article>
+
+        <article class="svc-card reveal">
+          <div class="svc-icon" aria-hidden="true">📺</div>
+          <h3 class="svc-name">TV Repair <span lang="hi">टीवी रिपेयर</span></h3>
+          <p class="svc-desc">LED, LCD, Smart TV aur CRT — display, backlight, motherboard, sound — har brand ki expert repair.</p>
+          <a href="#contact" class="svc-book">Book Now →</a>
+        </article>
+
+        <article class="svc-card reveal">
+          <div class="svc-icon" aria-hidden="true">🌀</div>
+          <h3 class="svc-name">Washing Machine Repair <span lang="hi">वॉशिंग मशीन</span></h3>
+          <p class="svc-desc">Top Load, Front Load, Semi-Automatic — drum, motor, PCB, drainage problem ka same-day solution.</p>
+          <a href="#contact" class="svc-book">Book Now →</a>
+        </article>
+
+        <article class="svc-card reveal">
+          <div class="svc-icon" aria-hidden="true">💨</div>
+          <h3 class="svc-name">Air Cooler &amp; Desert Cooler <span lang="hi">कूलर रिपेयर</span></h3>
+          <p class="svc-desc">Motor, pump, wiring, fan blade aur honeycomb pads — garmiyon se pehle cooler ko naya bana dein.</p>
+          <a href="#contact" class="svc-book">Book Now →</a>
+        </article>
+
+        <article class="svc-card reveal">
+          <div class="svc-icon" aria-hidden="true">🌬️</div>
+          <h3 class="svc-name">AC Repair &amp; Gas Refilling <span lang="hi">एसी रिपेयर</span></h3>
+          <p class="svc-desc">Split, Window, Inverter AC — gas refill, deep servicing, installation aur PCB repair with warranty.</p>
+          <a href="#contact" class="svc-book">Book Now →</a>
+        </article>
+
+        <article class="svc-card reveal">
+          <div class="svc-icon" aria-hidden="true">🔥</div>
+          <h3 class="svc-name">Microwave Oven Repair <span lang="hi">माइक्रोवेव</span></h3>
+          <p class="svc-desc">Heating nahi ho raha? Keypad ya magnetron kharab? Safety ke saath expert diagnosis aur repair.</p>
+          <a href="#contact" class="svc-book">Book Now →</a>
+        </article>
+
+        <article class="svc-card reveal">
+          <div class="svc-icon" aria-hidden="true">♨️</div>
+          <h3 class="svc-name">Geyser / Water Heater <span lang="hi">गीज़र रिपेयर</span></h3>
+          <p class="svc-desc">Element, thermostat, tank leakage — sardi mein garam paani ki guarantee, har brand service.</p>
+          <a href="#contact" class="svc-book">Book Now →</a>
+        </article>
+
+        <article class="svc-card reveal">
+          <div class="svc-icon" aria-hidden="true">🍹</div>
+          <h3 class="svc-name">Mixer Grinder &amp; Kitchen Appliances <span lang="hi">किचन अप्लायंसेज़</span></h3>
+          <p class="svc-desc">Mixer, juicer, induction cooktop, OTG — motor winding se lekar coupler tak, sab parts available.</p>
+          <a href="#contact" class="svc-book">Book Now →</a>
+        </article>
+
+        <!-- Extra services — hidden behind "View All Services" toggle on first load -->
+        <div class="svc-extra-wrap" id="svcExtra">
+          <article class="svc-card reveal">
+            <div class="svc-icon" aria-hidden="true">🔌</div>
+            <h3 class="svc-name">Electronic Parts Replacement <span lang="hi">स्पेयर पार्ट्स</span></h3>
+            <p class="svc-desc">Original &amp; compatible parts replacement — sahi daam, bill ke saath, koi duplicate maal nahi.</p>
+            <a href="#contact" class="svc-book">Book Now →</a>
+          </article>
+
+          <article class="svc-card reveal">
+            <div class="svc-icon" aria-hidden="true">🏠</div>
+            <h3 class="svc-name">Complete Electrical Wiring <span lang="hi">हाउस वायरिंग</span></h3>
+            <p class="svc-desc">House, shop aur industrial wiring — concealed/open wiring, earthing aur load planning ke saath.</p>
+            <a href="#contact" class="svc-book">Book Now →</a>
+          </article>
+
+          <article class="svc-card reveal">
+            <div class="svc-icon" aria-hidden="true">⚡</div>
+            <h3 class="svc-name">MCB, RCCB &amp; DB Board <span lang="hi">एमसीबी / डीबी</span></h3>
+            <p class="svc-desc">MCB, RCCB, DB board installation &amp; repair — short-circuit aur shock se poori family ki safety.</p>
+            <a href="#contact" class="svc-book">Book Now →</a>
+          </article>
+
+          <article class="svc-card reveal">
+            <div class="svc-icon" aria-hidden="true">🔋</div>
+            <h3 class="svc-name">Inverter &amp; Battery Setup <span lang="hi">इन्वर्टर सेटअप</span></h3>
+            <p class="svc-desc">Home UPS, inverter aur battery installation — light jaane ki tension khatam, sahi load calculation.</p>
+            <a href="#contact" class="svc-book">Book Now →</a>
+          </article>
+
+          <article class="svc-card reveal">
+            <div class="svc-icon" aria-hidden="true">☀️</div>
+            <h3 class="svc-name">Solar Panel Installation <span lang="hi">सोलर पैनल</span></h3>
+            <p class="svc-desc">Basic rooftop solar setup aur connection — bijli ka bill kam karein, nature ka saath nibhaayein.</p>
+            <a href="#contact" class="svc-book">Book Now →</a>
+          </article>
+
+          <article class="svc-card reveal">
+            <div class="svc-icon" aria-hidden="true">🚿</div>
+            <h3 class="svc-name">Motor Pump Repair <span lang="hi">मोटर पंप</span></h3>
+            <p class="svc-desc">Submersible &amp; monoblock pump repair — borewell aur tanki motors ki winding, capacitor, seal theek.</p>
+            <a href="#contact" class="svc-book">Book Now →</a>
+          </article>
+
+          <article class="svc-card reveal">
+            <div class="svc-icon" aria-hidden="true">📹</div>
+            <h3 class="svc-name">CCTV Camera Installation <span lang="hi">सीसीटीवी</span></h3>
+            <p class="svc-desc">CCTV camera installation &amp; repair — mobile pe live view, shop aur ghar dono ki suraksha.</p>
+            <a href="#contact" class="svc-book">Book Now →</a>
+          </article>
+
+          <article class="svc-card reveal svc-card--emergency">
+            <div class="svc-icon" aria-hidden="true">🚨</div>
+            <h3 class="svc-name">Emergency Same-Day Service <span lang="hi">तुरंत सर्विस</span></h3>
+            <p class="svc-desc">Urgent repair? Aaj call karein, aaj hi technician aapke ghar. Priority visit, extra bhaag-daud nahi.</p>
+            <a href="#contact" class="svc-book">Book Now →</a>
+          </article>
+        </div>
+      </div>
+
+      <div class="text-center reveal">
+        <button class="btn btn-outline" id="viewAllBtn" aria-expanded="false" aria-controls="svcExtra">
+          <span class="view-all-label">View All 16 Services</span> <span class="view-all-chevron" aria-hidden="true">▾</span>
+        </button>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== SECTION 4: WHY CHOOSE US ==================== -->
+  <section class="section why-us" id="why-us">
+    <div class="container">
+      <header class="section-head reveal">
+        <p class="section-eyebrow light">💪 Hamari Taakat</p>
+        <h2 class="section-title light">Prem Kumar Ji Ko <span class="text-gold">Kyun Chunein?</span></h2>
+        <p class="section-sub light">Degree certificate deewar pe nahi, kaam haathon mein dikhta hai.</p>
+      </header>
+
+      <div class="features-grid">
+        <article class="feature-box reveal">
+          <div class="feature-icon" aria-hidden="true">🎓</div>
+          <h3>20 Saal Ka Real Experience</h3>
+          <p>Degree nahi, talent hai. 10 saal ki umar se kaam shuru kiya — aaj 30 saal ki umar mein poore ilaake ke master technician.</p>
+        </article>
+
+        <article class="feature-box reveal">
+          <div class="feature-icon" aria-hidden="true">⚡</div>
+          <h3>Same Day Repair</h3>
+          <p>Aaj call karo, aaj theek. Jyaadatar repairs usi din complete — time ki keemat hum samajhte hain.</p>
+        </article>
+
+        <article class="feature-box reveal">
+          <div class="feature-icon" aria-hidden="true">💰</div>
+          <h3>Sabse Kam Daam</h3>
+          <p>No hidden charges, pehle estimate phir kaam. Transparent pricing — jeb pe bojh nahi padne denge.</p>
+        </article>
+
+        <article class="feature-box reveal">
+          <div class="feature-icon" aria-hidden="true">🛡️</div>
+          <h3>90 Days Warranty</h3>
+          <p>Har repair pe written warranty milti hai. Problem wapas aaye toh dobara muft mein theek karenge.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== SECTION 5: BRANDS WE REPAIR ==================== -->
+  <section class="section brands" id="brands">
+    <div class="container">
+      <header class="section-head reveal">
+        <p class="section-eyebrow">🏷️ Har Company Ke Expert</p>
+        <h2 class="section-title">Har Brand, Har Model — <span class="text-gold">Hum Sab Theek Karte Hain</span></h2>
+      </header>
+
+      <ul class="brands-grid reveal" aria-label="Brands we repair">
+        <li>Samsung</li><li>LG</li><li>Whirlpool</li><li>Godrej</li><li>Haier</li><li>Voltas</li>
+        <li>Daikin</li><li>Blue Star</li><li>IFB</li><li>Bosch</li><li>Panasonic</li><li>Sony</li>
+        <li>MI</li><li>Onida</li><li>Videocon</li><li>Bajaj</li><li>Crompton</li><li>Orient</li>
+      </ul>
+
+      <p class="brands-note reveal">…aur bhi sabhi brands! Aapke brand ka naam list mein nahi hai? <a href="#contact">Phir bhi call karein</a> — hum check karke batayenge.</p>
+    </div>
+  </section>
+
+  <!-- ==================== SECTION 6: PROCESS ==================== -->
+  <section class="section process" id="process">
+    <div class="container">
+      <header class="section-head reveal">
+        <p class="section-eyebrow">📋 Simple Process</p>
+        <h2 class="section-title">Kaam Kaise Hota Hai? — <span class="text-gold">4 Simple Steps</span></h2>
+      </header>
+
+      <ol class="timeline">
+        <li class="timeline-step reveal">
+          <div class="timeline-dot"><span aria-hidden="true">📞</span></div>
+          <div class="timeline-num">Step 1</div>
+          <h3>Call / WhatsApp Karein</h3>
+          <p>Apni problem batayein — photo ya video bhej dein toh aur behtar estimate milega.</p>
+        </li>
+        <li class="timeline-step reveal">
+          <div class="timeline-dot"><span aria-hidden="true">📍</span></div>
+          <div class="timeline-num">Step 2</div>
+          <h3>Hum Aapke Ghar Aayenge</h3>
+          <p>15 KM radius mein FREE home visit — aapko kahin jaane ki zaroorat nahi.</p>
+        </li>
+        <li class="timeline-step reveal">
+          <div class="timeline-dot"><span aria-hidden="true">🔧</span></div>
+          <div class="timeline-num">Step 3</div>
+          <h3>On-Spot Diagnosis &amp; Repair</h3>
+          <p>Pehle problem ka pata, phir transparent estimate — aapki permission ke baad hi kaam shuru.</p>
+        </li>
+        <li class="timeline-step reveal">
+          <div class="timeline-dot"><span aria-hidden="true">✅</span></div>
+          <div class="timeline-num">Step 4</div>
+          <h3>90 Day Warranty Ke Saath Delivery</h3>
+          <p>Kaam complete, testing done, warranty card haath mein — full tension-free.</p>
+        </li>
+      </ol>
+    </div>
+  </section>
+
+  <!-- ==================== SECTION 7: TESTIMONIALS ==================== -->
+  <section class="section testimonials" id="testimonials">
+    <div class="container">
+      <header class="section-head reveal">
+        <p class="section-eyebrow">❤️ Customer Love</p>
+        <h2 class="section-title">Humare Khush Customers <span class="text-gold">Kya Kehte Hain</span></h2>
+      </header>
+
+      <div class="testimonial-carousel" id="testimonialCarousel">
+        <div class="testimonial-track" id="testimonialTrack">
+
+          <article class="testimonial-card">
+            <div class="stars" aria-label="5 out of 5 stars">⭐⭐⭐⭐⭐</div>
+            <blockquote>“Raat ko 9 baje mera fridge band ho gaya tha — subah ka sab doodh aur sabzi kharab hone wala tha. Prem ji ne agle din subah 9 baje tak theek kar diya. Itni imaandari se kaam karte hain, daam bhi bilkul sahi. Ab ghar ka har kaam inhi se karwata hoon.”</blockquote>
+            <footer>
+              <strong>Ramesh Gupta</strong>
+              <span class="verified-badge">✔ Verified Customer</span>
+            </footer>
+          </article>
+
+          <article class="testimonial-card">
+            <div class="stars" aria-label="5 out of 5 stars">⭐⭐⭐⭐⭐</div>
+            <blockquote>“Washing machine ke liye company wale ₹6,000 maang rahe the aur PCB change karne ki baat kar rahe the. Prem Kumar ji ne sirf ₹800 mein chhota sa part badal ke machine nayi jaisi chala di. Aise imaandar electrician aaj ke time mein milna mushkil hai!”</blockquote>
+            <footer>
+              <strong>Sunita Sharma</strong>
+              <span class="verified-badge">✔ Verified Customer</span>
+            </footer>
+          </article>
+
+          <article class="testimonial-card">
+            <div class="stars" aria-label="5 out of 5 stars">⭐⭐⭐⭐⭐</div>
+            <blockquote>“AC ki gas refill aur servicing karwayi. Bhaiya ne pehle poora check kiya, phir bataya ki kya zaroori hai aur kya nahi. Sirf zaroori kaam ka paisa liya. 90 din ki warranty bhi di. Bohot hi professional kaam — dil se recommend karta hoon.”</blockquote>
+            <footer>
+              <strong>Amit Verma</strong>
+              <span class="verified-badge">✔ Verified Customer</span>
+            </footer>
+          </article>
+
+          <article class="testimonial-card">
+            <div class="stars" aria-label="5 out of 5 stars">⭐⭐⭐⭐⭐</div>
+            <blockquote>“Humari 15 saal purani TV ko sabne mana kar diya tha, bole nayi le lo. Prem ji bole — 'koi cheez kharab nahi hoti, sahi haath chahiye.' Sach mein, 2 ghante mein TV bilkul nayi jaisi chalne lagi. Bachche bohot khush hue. Bhagwan aapko tarakki de!”</blockquote>
+            <footer>
+              <strong>Rekha Devi</strong>
+              <span class="verified-badge">✔ Verified Customer</span>
+            </footer>
+          </article>
+
+        </div>
+
+        <div class="carousel-controls">
+          <button class="carousel-btn" id="prevTestimonial" aria-label="Previous review">‹</button>
+          <div class="carousel-dots" id="carouselDots" role="tablist" aria-label="Choose review"></div>
+          <button class="carousel-btn" id="nextTestimonial" aria-label="Next review">›</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== SECTION 8: ABOUT PREM KUMAR ==================== -->
+  <section class="section about" id="about">
+    <div class="container">
+      <header class="section-head reveal">
+        <p class="section-eyebrow light">👑 The Man Behind The Name</p>
+        <h2 class="section-title light">Prem Kumar — <span class="text-gold">Ek Kahani Mehnat Ki</span></h2>
+      </header>
+
+      <div class="about-grid">
+        <div class="about-photo reveal">
+          <!-- ⚠️ REPLACE: is placeholder ko Prem Kumar Ji ki real photo se badlein.
+               Bas apni photo ka naam "prem-kumar-portrait.jpg" rakh kar
+               assets/images/ folder mein daal dein — website khud update ho jayegi. -->
+          <figure class="photo-frame">
+            <img src="assets/images/prem-kumar-portrait.jpg"
+                 alt="Prem Kumar — Founder & Master Technician of Prem Kumar Electronics, apne workshop mein"
+                 width="640" height="640" loading="lazy" decoding="async">
+          </figure>
+          <figcaption class="photo-caption">Prem Kumar Ji <span lang="hi">— संस्थापक एवं मुख्य तकनीशियन</span></figcaption>
+        </div>
+
+        <div class="about-story reveal">
+          <p class="story-lead">Prem Kumar ne <strong>10 saal ki umar</strong> se electronics ki duniya mein kadam rakha. Bina kisi formal degree ke, sirf <strong>mehnat, lagan aur talent</strong> ke dam par aaj woh ek successful Electronic Repairing Centre ke malik hain jahan kai workers unke under kaam karte hain.</p>
+
+          <p>20 saal ka real-world experience unhe kisi bhi certified engineer se kahin zyada capable banata hai. Jab degree-wale manual dekhte hain, Prem Kumar ji apne haathon aur 20 saal ke tajurbe se problem ko seconds mein pehchaan lete hain.</p>
+
+          <div class="about-highlight">
+            <span aria-hidden="true">🏆</span>
+            <p><strong>Bina degree ke, sirf talent aur mehnat se 20 saal mein ek empire khada kiya.</strong> Aaj ek poori team unke saath kaam karti hai — aur har worker ko wohi sikhate hain jo unhone khud zameen pe sikha hai.</p>
+          </div>
+
+          <blockquote class="about-quote">
+            <p lang="hi">“कोई भी चीज़ ख़राब नहीं होती, बस सही हाथ चाहिए।”</p>
+            <p class="quote-translation">"Koi bhi electronic cheez kharab nahi, bas sahi haath chahiye."</p>
+            <cite>— Prem Kumar</cite>
+          </blockquote>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ==================== SECTION 9: SERVICE AREA ==================== -->
+  <section class="section area" id="area">
+    <div class="container">
+      <header class="section-head reveal">
+        <p class="section-eyebrow">📍 Service Area</p>
+        <h2 class="section-title">Hum Kahan-Kahan <span class="text-gold">Service Dete Hain</span></h2>
+      </header>
+
+      <div class="free-visit-banner reveal">
+        <span class="banner-icon" aria-hidden="true">🛵</span>
+        <p><strong>15 KM radius mein FREE Home Visit!</strong> Ghar baithe repair karwayein — koi visiting charge nahi.</p>
+      </div>
+
+      <!-- ⚠️ REPLACE: in area names ko apne real local areas se badlein -->
+      <ul class="areas-list reveal" aria-label="Areas we serve">
+        <li>📍 Gandhi Nagar</li>
+        <li>📍 Station Road</li>
+        <li>📍 Main Market</li>
+        <li>📍 Shastri Chowk</li>
+        <li>📍 Nehru Marg</li>
+        <li>📍 Civil Lines</li>
+        <li>📍 Industrial Area</li>
+        <li>📍 Purana Bazar</li>
+      </ul>
+
+      <p class="area-note reveal">Aapka area list mein nahi hai? <a href="tel:+919876543210">Call karke pooch lein</a> — emergency mein hum door tak bhi jaate hain. 🚀</p>
+    </div>
+  </section>
+
+  <!-- ==================== SECTION 10: CONTACT & BOOKING ==================== -->
+  <section class="section contact" id="contact">
+    <div class="container">
+      <header class="section-head reveal">
+        <p class="section-eyebrow light">📞 Book Karein</p>
+        <h2 class="section-title light">Abhi Contact Karein — <span class="text-gold">Aaj Hi Repair Karwayein!</span></h2>
+      </header>
+
+      <div class="contact-grid">
+
+        <!-- LEFT: Contact info -->
+        <div class="contact-info reveal">
+          <h3 class="contact-info-title">Baat Karein Seedha Prem Kumar Ji Se</h3>
+
+          <!-- ⚠️ REPLACE: sabhi numbers / email / address -->
+          <a href="tel:+919876543210" class="contact-item">
+            <span class="contact-icon" aria-hidden="true">📞</span>
+            <div><strong>Phone</strong><span>+91-98765-43210</span></div>
+          </a>
+
+          <a href="https://wa.me/919876543210?text=Namaste%21%20Mujhe%20repair%20service%20chahiye." target="_blank" rel="noopener" class="contact-item">
+            <span class="contact-icon" aria-hidden="true">💬</span>
+            <div><strong>WhatsApp</strong><span>+91-98765-43210</span></div>
+          </a>
+
+          <a href="mailto:premkumar.electronics@gmail.com" class="contact-item">
+            <span class="contact-icon" aria-hidden="true">📧</span>
+            <div><strong>Email</strong><span>premkumar.electronics@gmail.com</span></div>
+          </a>
+
+          <div class="contact-item">
+            <span class="contact-icon" aria-hidden="true">📍</span>
+            <div><strong>Shop Address</strong><span>[Your Shop Address, Your City, Your State - PIN]</span></div>
+          </div>
+
+          <div class="contact-item">
+            <span class="contact-icon" aria-hidden="true">🕐</span>
+            <div><strong>Timing</strong><span>Subah 8:00 — Raat 9:00 <em>(7 Days Open)</em></span></div>
+          </div>
+
+          <div class="contact-emergency">
+            🚨 <strong>Emergency?</strong> Same-day service available — abhi call karein!
+          </div>
+        </div>
+
+        <!-- RIGHT: Quick booking form -->
+        <div class="contact-form-wrap reveal">
+          <form id="bookingForm" class="booking-form" action="https://formspree.io/f/YOUR_FORM_ID" method="POST" novalidate>
+            <h3 class="form-title">🔧 Quick Booking Form</h3>
+            <p class="form-sub">Form bharein — hum 30 minute ke andar call back karenge.</p>
+            <!-- ⚠️ SETUP: formspree.io pe free account banayein, apna form ID lein aur
+                 upar action="...YOUR_FORM_ID" mein paste karein.
+                 Jab tak setup nahi karte, form "Mail / WhatsApp" fallback se kaam karega. -->
+
+            <div class="form-field">
+              <label for="fName">Aapka Naam <span aria-hidden="true">*</span></label>
+              <input type="text" id="fName" name="name" placeholder="e.g. Rahul Kumar" required autocomplete="name">
+              <small class="field-error" data-error-for="fName"></small>
+            </div>
+
+            <div class="form-field">
+              <label for="fPhone">Phone Number <span aria-hidden="true">*</span></label>
+              <input type="tel" id="fPhone" name="phone" placeholder="10-digit mobile number" required inputmode="numeric" autocomplete="tel">
+              <small class="field-error" data-error-for="fPhone"></small>
+            </div>
+
+            <div class="form-field">
+              <label for="fAppliance">Select Appliance <span aria-hidden="true">*</span></label>
+              <select id="fAppliance" name="appliance" required>
+                <option value="" disabled selected>— Choose appliance —</option>
+                <option>Fridge / Refrigerator</option>
+                <option>TV (LED / LCD / Smart / CRT)</option>
+                <option>Washing Machine</option>
+                <option>AC (Repair / Gas Refill / Install)</option>
+                <option>Air Cooler / Desert Cooler</option>
+                <option>Microwave Oven</option>
+                <option>Geyser / Water Heater</option>
+                <option>Mixer Grinder / Kitchen Appliance</option>
+                <option>Inverter / Battery</option>
+                <option>Electrical Wiring / MCB / DB Board</option>
+                <option>Solar Panel</option>
+                <option>Motor Pump</option>
+                <option>CCTV Camera</option>
+                <option>Other / Multiple Items</option>
+              </select>
+              <small class="field-error" data-error-for="fAppliance"></small>
+            </div>
+
+            <div class="form-field">
+              <label for="fProblem">Problem Description <span aria-hidden="true">*</span></label>
+              <textarea id="fProblem" name="problem" rows="4" placeholder="e.g. Fridge chal raha hai par cooling nahi ho rahi, peeche se awaaz aa rahi hai..." required></textarea>
+              <small class="field-error" data-error-for="fProblem"></small>
+            </div>
+
+            <div class="form-field">
+              <label for="fDate">Preferred Visit Date</label>
+              <input type="date" id="fDate" name="preferred_date">
+              <small class="field-error" data-error-for="fDate"></small>
+            </div>
+
+            <button type="submit" class="btn btn-submit" id="submitBtn">🔧 Repair Book Karein</button>
+
+            <p class="form-alt">ya seedha
+              <a href="https://wa.me/919876543210?text=Namaste%21%20Mujhe%20repair%20book%20karna%20hai." target="_blank" rel="noopener">WhatsApp pe message kar dein →</a>
+            </p>
+
+            <div class="form-success" id="formSuccess" role="status" hidden>
+              ✅ <strong>Shukriya!</strong> Aapki booking request bhej di gayi hai. Hum jald hi call karenge.
+              <br>Urgent hai? <a href="tel:+919876543210">Abhi call karein →</a>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  </main>
+
+  <!-- ==================== SECTION 11: FOOTER ==================== -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="#home" class="nav-logo">
+            <span class="logo-bolt" aria-hidden="true">⚡</span>
+            <span class="logo-text">Prem Kumar <strong>Electronics</strong></span>
+          </a>
+          <p>20 saal ka bharosa, har electronic ka ilaaj. Koi bhi cheez kharab nahi — bas sahi haath chahiye.</p>
+          <div class="social-links" aria-label="Social media">
+            <!-- ⚠️ REPLACE: apne real social profile links daalein -->
+            <a href="https://wa.me/919876543210" target="_blank" rel="noopener" aria-label="WhatsApp">💬</a>
+            <a href="#" aria-label="Facebook (link daalna baaki hai)">📘</a>
+            <a href="#" aria-label="Instagram (link daalna baaki hai)">📸</a>
+            <a href="#" aria-label="YouTube (link daalna baaki hai)">▶️</a>
+          </div>
+        </div>
+
+        <nav class="footer-links" aria-label="Quick links">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#why-us">Why Choose Us</a></li>
+            <li><a href="#brands">Brands</a></li>
+            <li><a href="#process">How It Works</a></li>
+            <li><a href="#testimonials">Reviews</a></li>
+            <li><a href="#about">About Prem Kumar</a></li>
+            <li><a href="#contact">Book Repair</a></li>
+          </ul>
+        </nav>
+
+        <div class="footer-contact">
+          <h4>Contact</h4>
+          <ul>
+            <li>📞 <a href="tel:+919876543210">+91-98765-43210</a></li>
+            <li>📧 <a href="mailto:premkumar.electronics@gmail.com">premkumar.electronics@gmail.com</a></li>
+            <li>🕐 8:00 AM — 9:00 PM (7 Days)</li>
+            <li>📍 [Your Shop Address, City]</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>© <span id="year">2026</span> Prem Kumar Electronics. All Rights Reserved.</p>
+        <p class="footer-love">Made with ❤️ for Hardworking India 🇮🇳</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Floating action buttons -->
+  <a href="https://wa.me/919876543210?text=Namaste%21%20Mujhe%20repair%20service%20chahiye."
+     target="_blank" rel="noopener" class="float-whatsapp" aria-label="Chat on WhatsApp">
+    <span aria-hidden="true">💬</span>
+  </a>
+
+  <button class="back-to-top" id="backToTop" aria-label="Back to top" title="Back to top">↑</button>
+
+</body>
+</html>
